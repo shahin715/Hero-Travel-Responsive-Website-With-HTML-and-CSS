@@ -19,6 +19,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 40px;
 }
 .nav__logo{
     display: flex;
@@ -34,19 +35,77 @@
     list-style: none;
     font-size: 18px;
 }
+.hero__section {
+    background-image: url(assets/Group\ 13\ \(1\)\ \(1\).png) ;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    gap: 20px;
+ 
+}
+.hero__section p{
+    font-size: 16px;
+    padding-bottom: 48px;
+}
+.hero__section h2 {
+    font-size: 50px;
 
+}
+
+.input-place {
+    width: 100px;
+    height: 35px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(19, 19, 24, 0.5);
+    border-radius: 8px;
+    border: none;
+}
+
+.button-color {
+    padding: 5px 5px;
+    border: none;
+    color: aliceblue;
+    background-color: rgb(255, 84, 0);
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.booking-field {
+    border-radius: 8px;
+   border: none;
+    padding: 16px;
+    background: rgba(255, 255, 255, 0.3);
+    display: flex;
+    gap: 24px;
+}
 
 /* Small Mobile (480px and below) */
 @media (max-width: 480px){
     .nav__bar{
         flex-direction: column;
-        gap:10px;
-        
+        gap:10px;  
     }
     
     .nav__link ul{
         flex-direction: column;
         align-items: center;
+    }
+    .hero__section {
+        height: 100vh;
+     
+    }
+    .booking-field{
+        flex-direction: column;
+     background-color: none;
     }
 
 }
@@ -63,6 +122,15 @@
         flex-direction: column;
         align-items: center;
     }
+    .hero__section {
+        height: 100vh;
+     
+    }
+    .booking-field{
+        flex-direction: column;
+     background-color: none;
+    }
+
 }
 
 /* Tablet (600px to 768px) */
@@ -76,6 +144,10 @@
     .nav__link ul{
         flex-direction: column;
         align-items: center;
+    }
+    .hero__section {
+        height: 100vh;
+     
     }
 }
 
