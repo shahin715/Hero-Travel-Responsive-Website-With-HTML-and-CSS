@@ -53,12 +53,30 @@
 
 /* Mobile (up to 600px) */
 @media (min-width: 480px) and (max-width: 600px){
-
+    .nav__bar{
+        flex-direction: column;
+        gap:10px;
+        
+    }
+    
+    .nav__link ul{
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 /* Tablet (600px to 768px) */
 @media (min-width: 600px) and (max-width: 768px){
-
+    .nav__bar{
+        flex-direction: column;
+        gap:10px;
+        
+    }
+    
+    .nav__link ul{
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 /* Small Desktop (768px to 1024px) */
