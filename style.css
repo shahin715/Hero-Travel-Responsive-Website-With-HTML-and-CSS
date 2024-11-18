@@ -1,0 +1,67 @@
+* {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.color__orange{
+    color:rgb(255, 84, 0);
+}
+.box__container{
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* nav-bar */
+.nav__bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__logo{
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+.nav__logo h3{
+    font-size: 36px;
+}
+.nav__link ul{
+    display: flex;
+    gap:44px;
+    list-style: none;
+    font-size: 18px;
+}
+
+
+/* Small Mobile (480px and below) */
+@media (max-width: 480px){
+    .nav__bar{
+        flex-direction: column;
+        gap:10px;
+        
+    }
+    
+    .nav__link ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+/* Mobile (up to 600px) */
+@media (min-width: 480px) and (max-width: 600px){
+
+}
+
+/* Tablet (600px to 768px) */
+@media (min-width: 600px) and (max-width: 768px){
+
+}
+
+/* Small Desktop (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px){
+
+}
